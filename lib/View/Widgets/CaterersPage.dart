@@ -18,6 +18,7 @@ class _CatererPageState extends State<CatererPage>
   ScrollController cont = ScrollController();
   bool scrolled = false;
   TabController _tabController;
+  bool _isSaved = false;
   @override
   void initState() {
     super.initState();
@@ -105,6 +106,21 @@ class _CatererPageState extends State<CatererPage>
               widget: widget,
             ),
           ),
+          Positioned(
+              top: 10,
+              right: 10,
+              child: IconButton(
+                iconSize: 30,
+                color: Colors.amber,
+                icon: _isSaved
+                    ? Icon(Icons.bookmark)
+                    : Icon(Icons.bookmark_border),
+                onPressed: () {
+                  setState(() {
+                    _isSaved = !_isSaved;
+                  });
+                },
+              ))
         ],
       ),
     );

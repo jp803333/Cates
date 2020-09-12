@@ -38,6 +38,18 @@ class _CustomDarwerState extends State<CustomDarwer> {
                   print('clicked subscriptions');
                 },
               ),
+              DrawerItem(
+                icon: Icons.bookmark,
+                name: 'Saved',
+                function: () {
+                  print('Saved');
+                  // print(widget.uid);
+                  Navigator.pushNamed(
+                    context,
+                    '/BookMarkedCatererScreen',
+                  );
+                },
+              ),
               Expanded(child: SizedBox()),
               DrawerItem(
                 icon: Icons.settings,
