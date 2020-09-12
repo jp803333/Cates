@@ -32,7 +32,7 @@ class DrawerItem extends StatelessWidget {
               ),
               Text(
                 this.name,
-                style: GoogleFonts.lato(
+                style: GoogleFonts.roboto(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: primaryColor,
