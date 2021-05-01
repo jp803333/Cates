@@ -1,5 +1,5 @@
-import 'package:Cates/Provider/AuthProvider.dart';
-import 'package:Cates/Provider/CatererProvider.dart';
+import 'package:cates/Provider/AuthProvider.dart';
+import 'package:cates/Provider/CatererProvider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

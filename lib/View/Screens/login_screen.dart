@@ -1,4 +1,4 @@
-import 'package:Cates/Provider/AuthProvider.dart';
+import 'package:cates/Provider/AuthProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -135,7 +135,7 @@ class _LoginState extends State<Login> {
                     ),
                     Consumer<AuthProvider>(
                         builder: (context, authProvider, child) {
-                      return FlatButton(
+                      return InkWell(
                         splashColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         child: Container(
@@ -149,7 +149,7 @@ class _LoginState extends State<Login> {
                                 letterSpacing: 0),
                           ),
                         ),
-                        onPressed: () {
+                        onTap: () {
                           print(_email.text);
                           print(_password.text);
                           if (_formkey.currentState.validate()) {

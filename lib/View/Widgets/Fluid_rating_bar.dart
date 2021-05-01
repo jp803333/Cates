@@ -1,4 +1,4 @@
-import 'package:Cates/View/colors.dart';
+import 'package:cates/View/colors.dart';
 import 'package:flutter/cupertino.dart';
 
 class CustomBar extends StatelessWidget {

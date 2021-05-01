@@ -1,6 +1,6 @@
-import 'package:Cates/Models/Core/Caterer.dart';
-import 'package:Cates/Provider/providers.dart';
-import 'package:Cates/View/Widgets/widget.dart';
+import 'package:cates/Models/Core/Caterer.dart';
+import 'package:cates/Provider/providers.dart';
+import 'package:cates/View/Widgets/widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

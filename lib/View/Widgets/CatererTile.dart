@@ -1,4 +1,4 @@
-import 'package:Cates/Models/Core/Caterer.dart';
+import 'package:cates/Models/Core/Caterer.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'Fluid_rating_bar.dart';

@@ -1,5 +1,4 @@
-import 'package:Cates/Provider/AuthProvider.dart';
-// import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cates/Provider/AuthProvider.dart';
 import 'screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

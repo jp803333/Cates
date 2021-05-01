@@ -1,6 +1,6 @@
 
-import 'package:Cates/Models/Core/Customer.dart';
-import 'package:Cates/Models/Core/Review.dart';
+import 'package:cates/Models/Core/Customer.dart';
+import 'package:cates/Models/Core/Review.dart';
 import 'package:flutter/cupertino.dart';
 import 'FoodItem.dart';
 
